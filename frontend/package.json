@@ -17,6 +17,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "dev": "nodemon --watch '**/*.ts' --exec 'ts-node' index.ts",
     "build": "react-scripts build && mv ./build ../build/frontend",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
